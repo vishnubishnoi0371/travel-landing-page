@@ -138,6 +138,9 @@ nav ul li a:hover::before {
 
 .btn-icon {
     padding: 16px 14px 18px 14px;
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
     border-radius: 50%;
     background: var(--orange)
 }
@@ -481,9 +484,25 @@ body {
     grid-row: 1/2;
 }
 
+.hoverimage {
+    transition: all linear 500ms;
+}
+
+.sub-item-1:hover img {
+    transform: scale(1.1);
+}
+
 .sub-item-2 {
     grid-column: 1/2;
     grid-row: 2/3;
+}
+
+.sub-item-2:hover img {
+    transform: scale(1.1);
+}
+
+.item-2-lg:hover img {
+    transform: scale(1.1);
 }
 
 .item-2 {
@@ -492,9 +511,17 @@ body {
     grid-row: 3/4;
 }
 
+.item-2:hover img {
+    transform: scale(1.1);
+}
+
 .sub-item-3 {
     grid-column: 1/2;
     grid-row: 4/5;
+}
+
+.sub-item-3:hover img {
+    transform: scale(1.1);
 }
 
 .sub-item-4 {
@@ -502,9 +529,17 @@ body {
     grid-row: 5/6;
 }
 
+.sub-item-4:hover img {
+    transform: scale(1.1);
+}
+
 .sub-item-5 {
     grid-column: 1/2;
     grid-row: 6/7;
+}
+
+.sub-item-5:hover img {
+    transform: scale(1.1);
 }
 
 
