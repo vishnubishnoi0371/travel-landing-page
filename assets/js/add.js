@@ -1,3 +1,4 @@
+
 let a = document.getElementById("nav");
 let flow = document.querySelector(".flow");
 let cross4 = document.querySelector(".cross-4");
@@ -22,7 +23,7 @@ menuicon.addEventListener("click", function () {
     cross6.classList.toggle("cross-3")}
 });
 
-home.addEventListener("click",function(){
+Home.addEventListener("click",function(){
     a.classList.toggle("fix-lft");
     flow.classList.remove("flow-hidden");
     cross4.classList.toggle("cross-1");
@@ -67,4 +68,5 @@ Book.addEventListener("click",function(){
     cross5.classList.toggle("cross-2");
     cross6.classList.toggle("cross-3");
 });
+
 

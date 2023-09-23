@@ -11,10 +11,10 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body class="flow cream">
@@ -101,13 +101,13 @@
                             </div>
                             <hr class="btn-line d-none d-md-block">
                             <div class="d-flex align-items-center justify-content-center pt-sm-30">
-                                <div>
+                                <div class="pb-sm-0 pb-3">
                                     <p class="fs-small4 fw-medium ff-3 black1 mb-0 ">Date</p>
                                     <p class="fs-small1 fw-normal ff-3 grey1 mb-0 ">09th March,2021</p>
                                 </div>
                                 <a href="https://calendar.google.com/calendar/u/0/r?pli=1" target="_blank"
-                                    class="pt-3 ps-3"><svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
+                                    class="pt-3 ps-3 pb-sm-0 pb-3 "><svg width="13" height="13" viewBox="0 0 13 13"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M5.23656 5.16263V9.49649H4.68812V5.75088H4.67838C4.44356 5.87843 3.96094 6.17339 3.65625 6.38217V5.81748C3.9979 5.57766 4.3539 5.35896 4.72225 5.16263H5.23656Z"
                                             fill="#F66F4D" />
@@ -121,7 +121,7 @@
 
                                 </a>
                             </div>
-                            <div class="ps-5 pt-2 d-none d-md-block">
+                            <div class="ps-5 pt-2 d-flex align-items-center justify-content-center">
                                 <a href="#" class=" btn-icon"><svg width="28" height="28" viewBox="0 0 28 28"
                                         fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -145,7 +145,7 @@
     <!-- sec-1 -->
     <section>
         <div class="container pt-100 position-relative">
-            <p class="fs-large5 fw-semibold black1 ff-3 mb-0 ">Categories</p>
+            <h2 class="fs-large5 fw-semibold black1 ff-3 mb-0 ">Categories</h2>
             <p class="fs-small3 fw-normal grey4 ff-3 sec-1-para-1 mb-0">Here are lots of interesting destinations to
                 visit, but don’t be confused—they’re already
                 grouped by
@@ -166,11 +166,11 @@
             </div>
             <div class="sec-1-slider pt-4">
                 <div class="sec-1-card-1 d-flex flex-column justify-content-center ps-4 px-2">
-                        <img class=" w-100 tourist-place" src="./assets/images/sec-1-img-1.png" alt="beach">
-                        <p class="fs-medium1 fw-semibold text-center ff-3 text-white mb-0 visit">Visite</p>
+                    <img class=" w-100 tourist-place" src="./assets/images/sec-1-img-1.png" alt="beach">
+                    <p class="fs-medium1 fw-semibold text-center ff-3 text-white mb-0 visit">Visite</p>
                     <p class="fs-medium5 fw-medium text-center ff-3 black1 mb-0">Beach</p>
                 </div>
-                
+
                 <div class="sec-1-card-1 d-flex flex-column justify-content-center ps-4">
                     <img class=" tourist-place" src="./assets/images/sec-1-img-2.png" alt="beach">
                     <p class="fs-medium1 fw-semibold text-center ff-3 text-white mb-0 visit">Visite</p>
@@ -200,7 +200,7 @@
         </div>
     </section>
     <!-- sec-2 -->
-    <div class="cream">
+    <div id="about" class="cream">
         <div class="container">
             <div class="row align-items-center justify-content-center pt-100">
                 <div class="col-lg-5 col-12 position-relative">
@@ -293,8 +293,273 @@
             </div>
         </div>
     </div>
-    <!-- sec-6 -->
 
+    <!-- section3 -->
+    <section id="Destination" class="section3-min-height">
+        <div class="position-relative container section3-custom-container1 pt-5 mb-3 mb-md-4 pb-2">
+            <h2
+                class="black1 ff-3 fs-large5 font-style-normal fw-semibold line-height-66 text-capitalize max-width-400 mb-0 mb-md-2">
+                Find Popular Destination</h2>
+            <div class="position-absolute d-none d-md-flex align-items-center justify-content-between arrows">
+                <button class="prev d-flex align-items-center justify-content-center">
+                    <svg class="section3-prev-arrow" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 13L1 7L7 1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button class="next d-flex align-items-center justify-content-center">
+                    <svg class="section3-next-arrow" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 13L7 7L1 1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </button>
+            </div>
+        </div>
+        <div class="slick-slider-section3 section3-custom-container2">
+            <div class="section3box me-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image1.png" alt="sunset">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">
+                    Mountain
+                    Hiking Tour</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Mountain
+                    Hiking
+                    Tour</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$89</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+            <div class="section3box mx-xl-3 me-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image2.png" alt="desert">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">Machu
+                    Picchu, Peru</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Machu
+                    Picchu,
+                    Peru</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$99</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+            <div class="section3box mx-xl-3 me-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image3.png"
+                    alt="The Grand Canyon, Arizona">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">The
+                    Grand
+                    Canyon, Arizona</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Mountain
+                    Hiking Tour</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$70</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+            <div class="section3box mx-xl-3 me-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image4.png" alt="Rome, Italy">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">Rome,
+                    Italy</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Mountain
+                    Hiking Tour</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$99</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+            <div class="section3box mx-xl-3 me-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image1.png" alt="sunset">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">
+                    Mountain
+                    Hiking Tour</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Mountain
+                    Hiking
+                    Tour</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$89</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+            <div class="section3box mx-xl-3 me-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image2.png" alt="desert">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">Machu
+                    Picchu, Peru</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Machu
+                    Picchu,
+                    Peru</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$99</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+            <div class="section3box mx-xl-3 me-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image3.png"
+                    alt="The Grand Canyon, Arizona">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">The
+                    Grand
+                    Canyon, Arizona</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Mountain
+                    Hiking Tour</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$70</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+            <div class="section3box ms-3">
+                <img class="border-radius-16 section3-image" src="/assets/images/section3image4.png" alt="Rome, Italy">
+                <p class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-24 mt-4 ms-2 ps-1">Rome,
+                    Italy</p>
+                <p class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 ms-2 ps-1 mb-1">Mountain
+                    Hiking Tour</p>
+                <div class="mt-4 d-flex justify-content-between align-items-center ms-2 ps-1 me-2 pe-1">
+                    <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-20 mb-0"><span
+                            class="black1 ff-3 fs-medium4 font-style-normal fw-semibold line-height-20">$99</span>
+                        /Person</p>
+                    <button class="ff-3 fs-small2 font-style-normal fw-normal line-height-14 section3-button">Book
+                        Now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section4 -->
+    <section id="Tours" class="container custom-container1">
+        <h2 class="black1 ff-3 fs-large5 font-style-normal fw-semibold line-height-66 mt-4 pt-sm-3 mb-3 text-center">
+            Top
+            Destinations</h2>
+        <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-16 text-center">Sost Brilliant reasons
+            Entrada should be your one-stop-shop!</p>
+        <div
+            class="section4-button-container d-flex gap-3 mx-auto mt-2 pt-1 mb-sm-5 mb-3 flex-sm-row flex-column position-relative">
+            <button
+                class="section4-button ff-1 fs-small2 font-style-normal fw-normal line-height-14 text-center">London</button>
+            <button
+                class="section4-button ff-1 fs-small2 font-style-normal fw-normal line-height-14 text-center">Bangkok</button>
+            <button
+                class="section4-button ff-1 fs-small2 font-style-normal fw-normal line-height-14 text-center">England</button>
+            <button
+                class="section4-button ff-1 fs-small2 font-style-normal fw-normal line-height-14 text-center">Singapore</button>
+            <button
+                class="section4-button ff-1 fs-small2 font-style-normal fw-normal line-height-14 text-center">Italy</button>
+        </div>
+
+        <div class="gallery">
+            <div class="sub-gallery1 item-1">
+                <div class="sub-item-1 position-relative">
+                    <img class="border-radius-20 w-100 h-100" src="/assets/images/section4image1.png" alt="">
+                    <div class="rating rating1 bg-white position-absolute">
+                        <p class="black1 ff-3 fs-small2 font-style-normal fw-medium line-height-14 py-1 px-2">3.5</p>
+                    </div>
+                    <div class="position-absolute place1">
+                        <p class="text-white ff-3 fs-medium1 font-style-normal fw-semibold line-height-20 mb-2">Vientam
+                        </p>
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-normal line-height-14 mb-0">Worefall
+                        </p>
+                    </div>
+                </div>
+                <div class="sub-item-2 position-relative">
+                    <img class="border-radius-20 w-100 h-100" src="/assets/images/section4image2.png" alt="">
+                    <div class="rating rating1 bg-white position-absolute">
+                        <p class="black1 ff-3 fs-small2 font-style-normal fw-medium line-height-14 py-1 px-2">3.5</p>
+                    </div>
+                    <div class="position-absolute place1">
+                        <p class="text-white ff-3 fs-medium1 font-style-normal fw-semibold line-height-20 mb-2">Vientam
+                        </p>
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-normal line-height-14 mb-0">Worefall
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2-lg position-relative">
+                <img class="border-radius-20 w-100 h-100" src="/assets/images/section4image3.png" alt="">
+                <div class="rating rating2 bg-black1 position-absolute">
+                    <p class="text-white ff-3 fs-small2 font-style-normal fw-medium line-height-14 py-1 px-2">3.5</p>
+                </div>
+                <div class="position-absolute place2">
+                    <p class="text-white ff-3 fs-medium1 font-style-normal fw-semibold line-height-20 mb-2">Vientam</p>
+                    <p class="text-white ff-3 fs-small2 font-style-normal fw-normal line-height-14 mb-0">Worefall</p>
+                </div>
+            </div>
+            <div class="item-3 sub-gallery2">
+                <div class="item-2 position-relative mt-md-0">
+                    <img class="border-radius-20 w-100 h-100" src="/assets/images/section4image3.png" alt="">
+                    <div class="rating rating2 bg-black1 position-absolute">
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-medium line-height-14 py-1 px-2">3.5
+                        </p>
+                    </div>
+                    <div class="position-absolute place2">
+                        <p class="text-white ff-3 fs-medium1 font-style-normal fw-semibold line-height-20 mb-2">Vientam
+                        </p>
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-normal line-height-14 mb-0">Worefall
+                        </p>
+                    </div>
+                </div>
+                <div class="sub-item-3 position-relative">
+                    <img class="border-radius-20 w-100 h-100" src="/assets/images/section4image4.png" alt="">
+                    <div class="rating rating1 bg-black1 position-absolute">
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-medium line-height-14 py-1 px-2">3.5
+                        </p>
+                    </div>
+                    <div class="position-absolute place1">
+                        <p class="text-white ff-3 fs-medium1 font-style-normal fw-semibold line-height-20 mb-2">Vientam
+                        </p>
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-normal line-height-14 mb-0">Worefall
+                        </p>
+                    </div>
+                </div>
+                <div class="sub-item-4 position-relative">
+                    <img class="border-radius-20 w-100 h-100" src="/assets/images/section4image5.png" alt="">
+                    <div class="rating rating1 bg-black1 position-absolute">
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-medium line-height-14 py-1 px-2">3.5
+                        </p>
+                    </div>
+                    <div class="position-absolute place1">
+                        <p class="text-white ff-3 fs-medium1 font-style-normal fw-semibold line-height-20 mb-2">Vientam
+                        </p>
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-normal line-height-14 mb-0">Worefall
+                        </p>
+                    </div>
+                </div>
+                <div class="sub-item-5 position-relative">
+                    <img class="border-radius-20 w-100 h-100" src="/assets/images/section4image6.png" alt="">
+                    <div class="rating rating1 bg-black1 position-absolute">
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-medium line-height-14 py-1 px-2">3.5
+                        </p>
+                    </div>
+                    <div class="position-absolute place1">
+                        <p class="text-white ff-3 fs-medium1 font-style-normal fw-semibold line-height-20 mb-2">Vientam
+                        </p>
+                        <p class="text-white ff-3 fs-small2 font-style-normal fw-normal line-height-14 mb-0">Worefall
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- sec-5 -->
     <section class="position-relative bg-cream">
         <div class="container pt-100">
             <div class="row justify-content-between ">
@@ -378,6 +643,49 @@
                     stroke-linejoin="round" />
             </svg>
         </button>
+    </section>
+
+    <!-- section6 -->
+    <section class="container custom-container1">
+        <div class="section6bg w-100 my-4 my-sm-5 d-flex align-items-center justify-content-center flex-column">
+            <h2
+                class="black1 ff-3 fs-large3 font-style-normal fw-semibold line-height-40 letter-spacing-06 mb-3 text-center">
+                Sign
+                up to our newsletter</h2>
+            <p class="grey4 ff-3 fs-small3 font-style-normal fw-normal line-height-26 max-width-415 text-center mb-4">
+                Reciev latest news,
+                update, and many other things every week.</p>
+            <div class="email bg-white d-flex align-items-center justify-content-between mt-3">
+                <input
+                    class="grey4 ff-3 fs-small2 font-style-normal fw-normal line-height-14 opacity-40 bg-white email-text"
+                    type="email" placeholder="Enter Your email address">
+                <div class="telegram ">
+                    <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_0_38)">
+                            <path
+                                d="M13 17.6321L17.0038 19.6312L26.2855 11.2713L19.0057 20.7216V25.0833L21.7356 21.6303L26.2855 23.4477L28.8333 8L13 17.6321Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_0_38" x="0" y="0" width="41.8333" height="43.0833"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="5" />
+                                <feGaussianBlur stdDeviation="6.5" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.871115 0 0 0 0 0.175254 0 0 0 0 0 0 0 0 0.7 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_38" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_38"
+                                    result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- footer -->
@@ -504,17 +812,25 @@
         </div>
     </footer>
 
-    <script src="./assets/js/add.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/js/add.js"></script>
+
 
     <script>
         $('.sec-1-slider').slick({
@@ -565,10 +881,6 @@
                         cssEase: 'linear',
                     }
                 }
-
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
             ]
         });
     </script>
@@ -613,6 +925,30 @@
 
                     }
                 }]
+        });
+
+        // section3
+        $('.slick-slider-section3').slick({
+            infinite: true,
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: '.prev',
+            nextArrow: '.next',
+            responsive: [
+                {
+                    breakpoint: 1265,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
         });
     </script>
 </body>
