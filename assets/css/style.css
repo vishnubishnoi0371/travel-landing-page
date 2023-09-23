@@ -54,7 +54,9 @@
 }
 
 .nav-btn {
-    padding: 19px 34px;
+    width: 170px;
+    height: 54px;
+    flex-shrink: 0;
     border-radius: 27px;
     border: 1.4px solid #F66F4D;
     background: white;
